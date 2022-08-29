@@ -1,0 +1,335 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-08-29T04:27:01.425Z",
+        "line": 9,
+        "name": "Periksa string palindrome",
+        "description": "",
+        "id": "check-string-palindrome;periksa-string-palindrome;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2002600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Saya masukin string \"okok\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"okok\"",
+                  "offset": 20
+                }
+              ],
+              "location": "definition.Soal1Defs.saya_masukin_string(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Saya test apakah palindrome",
+            "match": {
+              "location": "definition.Soal1Defs.saya_test_apakah_palindrome()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4008000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "hasilnya harus \"false\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"false\"",
+                  "offset": 15
+                }
+              ],
+              "location": "definition.Soal1Defs.hasilnya_harus(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-08-29T04:27:01.505Z",
+        "line": 10,
+        "name": "Periksa string palindrome",
+        "description": "",
+        "id": "check-string-palindrome;periksa-string-palindrome;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 998800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Saya masukin string \"bobob\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"bobob\"",
+                  "offset": 20
+                }
+              ],
+              "location": "definition.Soal1Defs.saya_masukin_string(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Saya test apakah palindrome",
+            "match": {
+              "location": "definition.Soal1Defs.saya_test_apakah_palindrome()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "hasilnya harus \"true\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"true\"",
+                  "offset": 15
+                }
+              ],
+              "location": "definition.Soal1Defs.hasilnya_harus(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-08-29T04:27:01.571Z",
+        "line": 11,
+        "name": "Periksa string palindrome",
+        "description": "",
+        "id": "check-string-palindrome;periksa-string-palindrome;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Saya masukin string \"bebeb\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"bebeb\"",
+                  "offset": 20
+                }
+              ],
+              "location": "definition.Soal1Defs.saya_masukin_string(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Saya test apakah palindrome",
+            "match": {
+              "location": "definition.Soal1Defs.saya_test_apakah_palindrome()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "hasilnya harus \"true\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"true\"",
+                  "offset": 15
+                }
+              ],
+              "location": "definition.Soal1Defs.hasilnya_harus(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-08-29T04:27:01.616Z",
+        "line": 12,
+        "name": "Periksa string palindrome",
+        "description": "",
+        "id": "check-string-palindrome;periksa-string-palindrome;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Saya masukin string \"baik\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"baik\"",
+                  "offset": 20
+                }
+              ],
+              "location": "definition.Soal1Defs.saya_masukin_string(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Saya test apakah palindrome",
+            "match": {
+              "location": "definition.Soal1Defs.saya_test_apakah_palindrome()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "hasilnya harus \"false\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"false\"",
+                  "offset": 15
+                }
+              ],
+              "location": "definition.Soal1Defs.hasilnya_harus(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Check string palindrome",
+    "description": "",
+    "id": "check-string-palindrome",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/soalFeatureFiles/Soal1.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-08-29T04:27:01.666Z",
+        "line": 3,
+        "name": "Periksa produk ditokopedia",
+        "description": "",
+        "id": "check-stok-produk-tokopedia;periksa-produk-ditokopedia",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 15215593100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Saya berada pada di halaman utama \"https://www.tokopedia.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.tokopedia.com/\"",
+                  "offset": 34
+                }
+              ],
+              "location": "definition.Soal3Defs.saya_berada_pada_di_halaman_utama(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 858804200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Saya memasukan key \"Sweater\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sweater\"",
+                  "offset": 19
+                }
+              ],
+              "location": "definition.Soal3Defs.saya_memasukan_key(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1072548900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Saya klik pencarian",
+            "match": {
+              "location": "definition.Soal3Defs.saya_klik_pencarian()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 13635387400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Saya melakukan scroll halaman untuk mengetahui berapa jumlah produk yg ada",
+            "match": {
+              "location": "definition.Soal3Defs.saya_melakukan_scroll_halaman_untuk_mengetahui_berapa_jumlah_produk_yg_ada()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 877821900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Menampilkan hasil jumlah produk",
+            "match": {
+              "location": "definition.Soal3Defs.menampilkan_hasil_jumlah_produk()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Check stok produk Tokopedia",
+    "description": "",
+    "id": "check-stok-produk-tokopedia",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/soalFeatureFiles/Soal3.feature",
+    "tags": []
+  }
+]
